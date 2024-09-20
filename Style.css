@@ -1,0 +1,169 @@
+
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+.Pair{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+}
+
+.l1{
+    background-color: rgba(230,233,230,255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.l2{
+    background-color: rgba(245,245,245,255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    height: 90vh;
+    border-radius: 20px;
+}
+
+header{
+    background-color: rgba(254,254,254,255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 80vw;
+    height: 10vh;
+    border-radius: 20px;
+}
+
+.menu{
+    background-color: rgba(248,248,248,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    border-radius: 2vh;
+    
+}
+
+.menustyle{
+    width: 7vw;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menustyle:hover{
+    background-color: rgba(253,253,253,255);
+    border-radius: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0.5vh;
+    height: 6vh;
+    cursor: pointer;
+}
+
+main{
+    background-color: rgba(254,254,254,255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    height: 30vh;
+    border-radius: 20px;
+}
+
+footer{
+    background-color: rgba(254,254,254,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    height: 50vh;
+    border-radius: 20px;
+}
+
+.card{
+    width: 15vw;
+    height: 35vh;
+    background: url("https://www.lacoste.co.th/media/homepage/2024-09-04/HP_20240904_B2I1A.jpg?auto=webp&format=webp") no-repeat;
+    background-size: cover;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.card:hover{
+    background: url("https://www.lacoste.co.th/media/homepage/2024-09-04/HP_20240904_B2I2B.jpg?auto=webp&format=webp") no-repeat;
+    background-size: cover;
+}
+
+.card1{
+    width: 15vw;
+    height: 35vh;
+    background: url("https://animeyuzu.com/wp-content/uploads/2024/07/mKOeQuH7BRrd6Fu4Exx2r0rJF5b-185x278.jpg") no-repeat;
+    background-size: cover;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.card1:hover{
+    background: url("https://animeyuzu.com/wp-content/uploads/2024/07/xacOx7zk0qAzJyN4XoeEkTHnnQ-185x278.jpg") no-repeat;
+    background-size: cover;
+}
+
+.card2{
+    width: 15vw;
+    height: 35vh;
+    background: url("https://www.lacoste.co.th/media/homepage/2024-09-04/HP_20240904_B2I2B.jpg?auto=webp&format=webp") no-repeat;
+    background-size: cover;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.card2:hover{
+    background: url("https://s.pinimg.com/webapp/topRight-6902088a.png") no-repeat;
+    background-size: cover;
+}
+
+.card3{
+    width: 15vw;
+    height: 35vh;
+    background: url("https://animeyuzu.com/wp-content/uploads/2024/04/rmyIzUIOeMlAvi1TGLClQRUV4j7-185x278.jpg") no-repeat;
+    background-size: cover;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.card3:hover{
+    background: url("https://animeyuzu.com/wp-content/uploads/2024/07/9ri01JvmNHUlqZo77K3CZn5rUhw-185x278.jpg") no-repeat;
+    background-size: cover;
+}
+
+.Ball{
+    background-color: black;
+    border-radius: 15px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    cursor: pointer;
+}
+
+#MSec{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
